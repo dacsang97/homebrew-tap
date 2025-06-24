@@ -5,21 +5,21 @@
 class GnasTm < Formula
   desc "AI Git Commit CLI tool"
   homepage "https://github.com/dacsang97/gnas-tm-releases"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/dacsang97/gnas-tm-releases/releases/download/v0.0.1/gnas-tm-releases_Darwin_x86_64.tar.gz"
-      sha256 "bddc06d10ef8447fbf2028bfe4bb0bda4ca355b051d9059d3ec93956a243df3e"
+      url "https://github.com/dacsang97/gnas-tm-releases/releases/download/v0.0.2/gnas-tm-releases_Darwin_x86_64.tar.gz"
+      sha256 "292cb3fd19328d15d955a74bc118303204ad75ae3aee5d72a75fcb2a2545e5b9"
 
       def install
         bin.install "gnas-tm"
       end
     end
     on_arm do
-      url "https://github.com/dacsang97/gnas-tm-releases/releases/download/v0.0.1/gnas-tm-releases_Darwin_arm64.tar.gz"
-      sha256 "9fd256e261b3acf5300b20ae5ed5db16c4744ff7ff7dab8f6c79f8938e55cfaf"
+      url "https://github.com/dacsang97/gnas-tm-releases/releases/download/v0.0.2/gnas-tm-releases_Darwin_arm64.tar.gz"
+      sha256 "eb65b346bb12dee497a724af9b9606038a784403e53c0ca74832dff6e480c27e"
 
       def install
         bin.install "gnas-tm"
@@ -30,8 +30,8 @@ class GnasTm < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/dacsang97/gnas-tm-releases/releases/download/v0.0.1/gnas-tm-releases_Linux_x86_64.tar.gz"
-        sha256 "68194810347079c9304b5251ca86c2de1a79c0c55913ba349dce84d5a6a6f11c"
+        url "https://github.com/dacsang97/gnas-tm-releases/releases/download/v0.0.2/gnas-tm-releases_Linux_x86_64.tar.gz"
+        sha256 "65cbfabb1dfac74cbb1cb16749872f32d65a496b5ca15f36a53308eb35f24ee2"
 
         def install
           bin.install "gnas-tm"
@@ -40,8 +40,8 @@ class GnasTm < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/dacsang97/gnas-tm-releases/releases/download/v0.0.1/gnas-tm-releases_Linux_arm64.tar.gz"
-        sha256 "efe3d0d1d089f0a6a14e82eca2582fd406d0df071dee280c65afcbf3b557eb6a"
+        url "https://github.com/dacsang97/gnas-tm-releases/releases/download/v0.0.2/gnas-tm-releases_Linux_arm64.tar.gz"
+        sha256 "bf15c064bd544a6b3e5face84a22f4ea3709fab0b5164065dcb69e4bc679a407"
 
         def install
           bin.install "gnas-tm"
