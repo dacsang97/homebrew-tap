@@ -5,20 +5,20 @@
 class Ght < Formula
   desc "GHT CLI"
   homepage "https://github.com/dacsang97/ght"
-  version "0.0.4"
+  version "0.0.5"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/dacsang97/ght/releases/download/v0.0.4/ght_Darwin_x86_64.tar.gz"
-      sha256 "3f38285e9bb53471667887409c7ce16566e20e16efb41134609645c228700899"
+      url "https://github.com/dacsang97/ght/releases/download/v0.0.5/ght_Darwin_x86_64.tar.gz"
+      sha256 "5fcac7d90051b5bbfe36c3959cc87d3a2f7acb447175a25a3945a99e72b96d2c"
 
       def install
         bin.install "ght"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/dacsang97/ght/releases/download/v0.0.4/ght_Darwin_arm64.tar.gz"
-      sha256 "d2777c076ab30c0c4bf022d7a9b605d9966a2535bf59012ff547f93645d6b635"
+      url "https://github.com/dacsang97/ght/releases/download/v0.0.5/ght_Darwin_arm64.tar.gz"
+      sha256 "740d89af4d17701a3c5d91f38f9991a450ef51bea48f951d065d1527f0b9e035"
 
       def install
         bin.install "ght"
@@ -28,15 +28,15 @@ class Ght < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/dacsang97/ght/releases/download/v0.0.4/ght_Linux_x86_64.tar.gz"
-      sha256 "91d5782726b982f69411d1d7851f03b8779a484eb422b0cc862fbb0893ff5a3b"
+      url "https://github.com/dacsang97/ght/releases/download/v0.0.5/ght_Linux_x86_64.tar.gz"
+      sha256 "b6229a05bb9703ccb66872bacd4437cf9f2d2f4ed0512bfd9a67f3b5d984415b"
       def install
         bin.install "ght"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/dacsang97/ght/releases/download/v0.0.4/ght_Linux_arm64.tar.gz"
-      sha256 "c6bdf99c16231bfd9929fbfb9ee58480533607a3c86d6dd3b9647017378ed2c6"
+      url "https://github.com/dacsang97/ght/releases/download/v0.0.5/ght_Linux_arm64.tar.gz"
+      sha256 "e75d0f5c81987f85e87a0ac760bc6d2087d271f493e140e12269161bfff8f4bb"
       def install
         bin.install "ght"
       end
