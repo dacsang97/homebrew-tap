@@ -5,21 +5,20 @@
 class Safaribooks < Formula
   desc "Download and generate an EPUB of your favorite Safari Books Online titles"
   homepage "https://github.com/dacsang97/safaribooks"
-  version "0.0.1"
-  license "MIT"
+  version "0.0.2"
 
   on_macos do
     on_intel do
-      url "https://github.com/dacsang97/safaribooks/releases/download/v0.0.1/safaribooks_Darwin_x86_64.tar.gz"
-      sha256 "0cd0a3250cdce9659f9f97d7930abe1132c7ef3ec7257cdba12cd1ecc791eb44"
+      url "https://github.com/dacsang97/safaribooks/releases/download/v0.0.2/safaribooks_Darwin_x86_64.tar.gz"
+      sha256 "4d671ac48d5751132f51cb14ac6d5ff5e0192c3c5320a9c1ba1ed8864c461a75"
 
       def install
         bin.install "safaribooks"
       end
     end
     on_arm do
-      url "https://github.com/dacsang97/safaribooks/releases/download/v0.0.1/safaribooks_Darwin_arm64.tar.gz"
-      sha256 "0010a23bb513f2713789fc5578782eee003e6b2b6f16dfc31c5f38e763126825"
+      url "https://github.com/dacsang97/safaribooks/releases/download/v0.0.2/safaribooks_Darwin_arm64.tar.gz"
+      sha256 "0354c4dd505979320c977d7c945815c3a4a65f9cc83992ac923a380e24fd22c3"
 
       def install
         bin.install "safaribooks"
@@ -30,8 +29,8 @@ class Safaribooks < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/dacsang97/safaribooks/releases/download/v0.0.1/safaribooks_Linux_x86_64.tar.gz"
-        sha256 "a8131995db272b376f0e956a161469753a9d6791871c9dff04504979c39a68e7"
+        url "https://github.com/dacsang97/safaribooks/releases/download/v0.0.2/safaribooks_Linux_x86_64.tar.gz"
+        sha256 "a55a3618d3a5dd83d07d9efa9508efba7082cf594b64c67b4ea2c30c4b127fa1"
 
         def install
           bin.install "safaribooks"
@@ -40,8 +39,8 @@ class Safaribooks < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/dacsang97/safaribooks/releases/download/v0.0.1/safaribooks_Linux_arm64.tar.gz"
-        sha256 "29bf50b0fa08f30b0c03b3277254925bd44f1962e452e150fad81e66fa4da99f"
+        url "https://github.com/dacsang97/safaribooks/releases/download/v0.0.2/safaribooks_Linux_arm64.tar.gz"
+        sha256 "ae9cd6e721859e628d39f0a60489993c40c8863b6ea5b85ccc852313f019173a"
 
         def install
           bin.install "safaribooks"
