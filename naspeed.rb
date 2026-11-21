@@ -5,28 +5,28 @@
 class Naspeed < Formula
   desc "Transparent RUSTC_WRAPPER: crates cached once per volume, cloned copy-on-write"
   homepage "https://dacsang97.github.io/naspeed/"
-  version "0.12.2"
+  version "0.13.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/dacsang97/naspeed/releases/download/v0.12.2/naspeed-v0.12.2-aarch64-apple-darwin.tar.gz"
-      sha256 "21f4787d23ff6c4e90d14cf66dbc5a9e2a2af1ceac1f4ea29c4caa40ba087f26"
+      url "https://github.com/dacsang97/naspeed/releases/download/v0.13.0/naspeed-v0.13.0-aarch64-apple-darwin.tar.gz"
+      sha256 "eb6201547668ee58798077f3057f9c5940cecd12ca9dabc7d2852fb5ee9f9049"
     end
     on_intel do
-      url "https://github.com/dacsang97/naspeed/releases/download/v0.12.2/naspeed-v0.12.2-x86_64-apple-darwin.tar.gz"
-      sha256 "d5207f2849b614f13843624cca48ae80bd62d3d41c903128131b3dcd6ca37b8b"
+      url "https://github.com/dacsang97/naspeed/releases/download/v0.13.0/naspeed-v0.13.0-x86_64-apple-darwin.tar.gz"
+      sha256 "e1609ade8ef970622090567a9b55c4ddc62c79010a86649a4114fb50e33108aa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dacsang97/naspeed/releases/download/v0.12.2/naspeed-v0.12.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "3e4ae7c3241db182cfa2189e7eeda0c67425ba3c6825d686160184ef1fc8a85c"
+      url "https://github.com/dacsang97/naspeed/releases/download/v0.13.0/naspeed-v0.13.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "55635301760f023efe934a1c42c317d1e39fc1b1fb182b6c9e18197d9de8ba15"
     end
     on_intel do
-      url "https://github.com/dacsang97/naspeed/releases/download/v0.12.2/naspeed-v0.12.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9c2046c02e26c36268edc17d26b1ae1216be5796eba9061a2367bf730faa17bc"
+      url "https://github.com/dacsang97/naspeed/releases/download/v0.13.0/naspeed-v0.13.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5ef225a2dcb9b3a82eac01c6099f9f7d03f4d1d422bcba4d4724abfea75399da"
     end
   end
 
